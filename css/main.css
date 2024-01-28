@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+#board {
+    display: inline-block;
+}
+
+#create {
+    margin: 5px;
+}
+
+#errortext {
+    color: red;
+}
+
+.line {
+    display: flex;
+}
+
+.cell {
+    height: 15px;
+    width: 15px;
+    border: 1px solid black;
+}
+
+.alive {
+    background-color: black;
+}
